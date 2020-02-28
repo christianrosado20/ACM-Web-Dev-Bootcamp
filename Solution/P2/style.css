@@ -1,0 +1,84 @@
+body {
+  background-color: #FF4343;
+  font-family: 'Odibee Sans';
+
+}
+#title {
+  font-size: 4rem;
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+  letter-spacing: 5px;
+}
+.container {
+  margin: 0 auto;
+  padding: 3rem;
+  margin-top: 2rem;
+  width: 60%;
+  background-color: white;
+  border-radius: 1%;
+  padding: 10px;
+}
+
+.score-board {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.team {
+  padding: 1rem 9rem;
+  background-color: #FFB900;
+  color: white;
+  text-align: center;
+}
+
+.team p {
+  color: white;
+  font-size:3.5rem;
+}
+
+.team h3 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.divider {
+  padding: 4rem 4rem;
+  font-size: 3.5rem;
+  background-color: #FFB900;
+  color: white;
+}
+
+.controls {
+  padding: 2rem;
+  background-color: #EF6950;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.controls button {
+  padding: 1rem 3rem;
+  font-size: 1.25rem;
+  margin: auto;
+  font-family: 'Odibee Sans', ;
+  background-color: #FFB900;
+  color: white;
+  border: none;
+}
+
+
+.controls label {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.controls input[type=number] {
+  border: none;
+  font-size: 2rem;
+  text-align: center;
+  width: 30%;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <title>Javascript Score App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id='title'>Score Board</h1>
+      <div class="score-board">
+
+        <div class="team" id="team-a">
+          <p id="score-a"><p>
+          <h3>Team A</h3>
+        </div>
+
+        <div class="divider">
+          -
+        </div>
+
+        <div class="team" id="team-b">
+          <p id="score-b"><p>
+          <h3>Team B</h3>
+        </div>
+
+      </div>
+      <div class="controls">
+        <button type="button" name="button" id="reset">Reset</button>
+        <div>
+          <label for="max-score">Max Score</label>
+          <br>
+          <input type="number" name="max-score" value="0" id="max-score">
+        </div>
+      </div>
+
+    </div>
+    <script src="score.js" type="text/javascript"></script>
+  </body>
+</html>

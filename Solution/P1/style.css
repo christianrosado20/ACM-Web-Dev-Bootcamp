@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: 'Spartan';
+}
+.banner {
+  background-image: url("computers.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 46rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image:blur(5px);
+  margin: 0;
+  color: white;
+
+}
+
+.about-me {
+  padding: 8rem 5rem;
+  margin: auto;
+  text-align: center;
+  background-color: #00B7C3;
+  color: white;
+}
+
+.about-me p {
+  margin: auto;
+  padding: 1rem;
+  width: 60%;
+}
+
+.habilidades {
+  padding: 8rem 5rem;
+  margin: auto;
+  text-align: center;
+  background-color: #8E8CD8;
+  color: white;
+}
+
+.habilidades li {
+  list-style-type: none;
+  text-align: center;
+}
+
+.favoritos {
+  padding: 8rem 5rem;
+  margin: auto;
+  background-color: #FF4343;
+  color: white;
+}
+
+.favoritos h2 {
+  text-align: center;
+}
+
+.favoritos ol {
+  margin: auto;
+  margin-left: 45%;
+}
+
+.contact {
+  padding: 8rem 5rem;
+  margin: auto;
+  background-color: #00CC6A;
+  color: white;
+}
+
+.contact form {
+  color: black;
+  width: 30%;
+  padding: 3rem 5rem;
+  margin: auto;
+  background-color: white;
+
+}
+
+.contact label {
+  padding-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+
+.contact input[type=text], input[type=email]{
+  border-width: 0px 0px 2px 0px;
+  border-color: black;
+  width: 20rem;
+  padding: 0.25rem;
+  font-size: 1.25rem;
+}
+
+.contact textarea {
+  font-size: 1.25rem;
+}
+
+.contact br {
+  padding: 2rem;
+}
+
+.contact button {
+  padding: 1rem 4rem;
+  border: none;
+  background-color: #00CC6A;
+  color: white;
+  font-size: 1.15rem;
+
+}
