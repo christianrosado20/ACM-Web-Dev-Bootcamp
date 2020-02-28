@@ -3,10 +3,10 @@
 
 
 ## Resources
-[Colors](https://fluentcolors.com/)
-[Google Fonts](https://fonts.google.com/)
-[Knowledge Site](https://www.w3schools.com/)
-[Heroku Website](https://www.heroku.com/)
+* [Colors](https://fluentcolors.com/)
+* [Google Fonts](https://fonts.google.com/)
+* [Knowledge Site](https://www.w3schools.com/)
+* [Heroku Website](https://www.heroku.com/)
 
 ## Project 1
 The goal in Project 1 is to introduce the topics of HTML and CSS by building a simple personal website.  
