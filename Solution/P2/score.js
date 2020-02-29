@@ -38,4 +38,6 @@ reset.addEventListener('click', function() {
   maxScoreTag.value = 0;
   scoreATag.innerHTML = scoreA;
   scoreBTag.innerHTML = scoreB;
+  teamABoard.style.backgroundColor = "#FFB900";
+  teamBBoard.style.backgroundColor = "#FFB900";
 })

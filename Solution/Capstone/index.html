@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Kalam&display=swap" rel="stylesheet">
+    <title>Cuevita de Tarzan</title>
+</head>
+<body>
+  <div class="container">
+    <div class="container-body">
+      <h1>Cueva de Tarzan</h1>
+      <p>Bienvenido a nuestra pagina online de ordenar!</p>
+
+      <!-- Step 1 -->
+      <div class="step">
+        <h2>Paso 1: Escoge tu café</h2>
+        <div class="article-card" onclick="select('Latte', lattePrice)">
+          <h3>Latte $<span id="latte"></span></h3>
+        </div>
+        <div class="article-card" onclick="select('Espresso', espressoPrice)">
+          <h3>Espresso $<span id="espresso"></span></h3>
+        </div>
+        <div class="article-card" onclick="select('Mochacchino', mochaPrice)">
+          <h3>Mochacchino $<span id="mocha"></span></h3>
+        </div>
+        <div class="article-card" onclick="select('Cappuccino', cappuccinoPrice)">
+          <h3>Cappuccino $<span id="cappuccino"></span></h3>
+        </div>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="step">
+        <h2>Paso 2: Escoge Tamaño</h2>
+
+        <div class="article-card" onclick="select('Small', smallCupPrice)">
+          <img src="images/cup.jpg" alt="small-cup">
+          <div class="article-card-content">
+            <h3>Pequeño 8 oz</h3>
+            Precio: $<span id="small-cup"></span>
+          </div>
+        </div>
+
+        <div class="article-card" onclick="select('Medium', mediumCupPrice)">
+          <img src="images/cup.jpg" alt="medium-cup">
+          <div class="article-card-content">
+            <h3>Mediano 12 oz</h3>
+            Precio: $<span id="medium-cup"></span>
+          </div>
+        </div>
+
+        <div class="article-card" onclick="select('Large', largeCupPrice)">
+          <img src="images/cup.jpg" alt="large-cup">
+          <div class="article-card-content">
+            <h3>Grande 16 oz</h3>
+            Precio: $<span id="large-cup"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="step">
+        <h2>Paso 3: Escoge la leche</h2>
+        <div class="article-card" onclick="select('wholemilk', wholemilkPrice)">
+          <img src="images/wholemilk.png" alt="wholemilk">
+          <div class="article-card-content">
+            <h3>Wholemilk</h3>
+            Precio: $<span id="wholemilk"></span>
+          </div>
+        </div>
+
+        <div class="article-card" onclick="select('lactosefree', lactosefreePrice)">
+          <img src="images/lactose-free.jpeg" alt="lactose-free">
+          <div class="article-card-content">
+            <h3>Lactose Free</h3>
+            Precio: $<span id="lactose-free"></span>
+          </div>
+        </div>
+
+        <div class="article-card" onclick="select('almondmilk', almondmilkPrice)">
+          <img src="images/almond-milk.jpg" alt="almond-milk">
+          <div class="article-card-content">
+            <h3>Almond Milk</h3>
+            Precio: $<span id="almond-milk"></span>
+          </div>
+        </div>
+
+        <div class="article-card" onclick="select('oatmilk', oatmilkPrice)">
+          <img src="images/oatmilk.png" alt="oatmilk">
+          <div class="article-card-content">
+            <h3>Oatmilk</h3>
+            Precio: $<span id="oatmilk"></span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Step 4 -->
+      <div class="step">
+        <h2>Paso 4: Escoge Whip Cream</h2>
+        <div class="article-card" onclick="select('nowhip', noWhipCreamPrice)">
+          <img src="images/none.png" alt="no-whip">
+          <div class="article-card-content">
+            <h3>No Whip Cream</h3>
+            Precio: $<span id="no-whip"></span>
+          </div>
+        </div>
+
+        <div class="article-card" onclick="select('whipcream', whipCreamPrice)">
+          <img src="images/whip-cream.jpeg" alt="whip-cream">
+          <div class="article-card-content">
+            <h3>Whip Cream</h3>
+            Precio: $<span id="whip-cream"></span>
+          </div>
+        </div>
+
+        <div class="article-card" onclick="select('chocowhipcream', chocoWhipCreamPrice)">
+          <img src="images/choco-whip-cream.jpg" alt="choco-whip-cream">
+          <div class="article-card-content">
+            <h3>Chocolate Whip Cream</h3>
+            Precio: $<span id="choco-whip-cream"></span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Step 5 -->
+      <div class="step">
+        <h2>Step 5: Pay Coffee</h2>
+        <h3>Summary</h3>
+        <div class="summary">
+          <ul id="breakdown">
+          </ul>
+          <p>Subtotal: $<span id="subtotal"></span></p>
+          <p>Online Fee: $<span id="online-fee"></span></p>
+          <p>Tax: $<span id="tax"></span></p>
+          <p>Total: $<span id="total"></span></p>
+        </div>
+        <button type="button" onclick="purchase()" id="payBtn">Pagar</button>
+      </div>
+    </div>
+  </div>
+
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
